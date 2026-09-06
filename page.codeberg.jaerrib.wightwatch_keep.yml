@@ -34,3 +34,4 @@ modules:
       - install -Dm644 ${FLATPAK_ID}.desktop ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
       - install -Dm644 ${FLATPAK_ID}.xml ${FLATPAK_DEST}/share/metainfo/${FLATPAK_ID}.metainfo.xml
       - install -Dm644 ${FLATPAK_ID}.png ${FLATPAK_DEST}/share/icons/hicolor/256x256/apps/${FLATPAK_ID}.png
+
