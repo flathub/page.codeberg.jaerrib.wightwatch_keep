@@ -23,7 +23,7 @@ modules:
       - type: git
         url: https://codeberg.org/jaerrib/wightwatch_keep.git
         tag: 1.6
-        commit: b249bcf5b7af7257982ac50f6b327ef8bfaabaa2
+        commit: 3208518233da1cd53fba0de49d82da9e5f5a0302
 
       - type: file
         url: https://codeberg.org/jaerrib/wightwatch_keep/releases/download/1.6/Wightwatch_Keep-1.6.pck
