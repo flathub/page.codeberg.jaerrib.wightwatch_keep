@@ -1,6 +1,6 @@
 id: page.codeberg.jaerrib.wightwatch_keep
 runtime: org.freedesktop.Platform
-runtime-version: '25.08'
+runtime-version: '26.08'
 base: org.godotengine.godot.BaseApp
 base-version: '4.7'
 sdk: org.freedesktop.Sdk
@@ -22,13 +22,13 @@ modules:
     sources:
       - type: git
         url: https://codeberg.org/jaerrib/wightwatch_keep.git
-        tag: 1.6
-        commit: 3208518233da1cd53fba0de49d82da9e5f5a0302
+        tag: 1.6.0.1
+        commit: f3065ff5b830675524aaf13359b887d012bf1745
 
       - type: file
-        url: https://codeberg.org/jaerrib/wightwatch_keep/releases/download/1.6/Wightwatch_Keep-1.6.pck
+        url: https://codeberg.org/jaerrib/wightwatch_keep/releases/download/1.6.0.1/Wightwatch_Keep-1.6.0.1.pck
         dest-filename: Wightwatch_Keep.pck
-        sha256: 0f715f737cc505ee06a38df63bdfa4ec4241934cb754be5634b4b6d19b5f5ccc
+        sha256: bdcb59c07d869d2c861e44259b98c22390dc6165ae5a31b43311dbe147df7115
 
     build-commands:
       - install -Dm644 Wightwatch_Keep.pck ${FLATPAK_DEST}/bin/godot-runner.pck
